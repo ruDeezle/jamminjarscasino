@@ -1,0 +1,164 @@
+body{
+    margin: 0;
+    background: linear-gradient(90deg, #551b4f 0%, #26184f 100%);
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bonus-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.bonus-cont{
+    height: 300px;
+    width: 370px;
+    background-color:white;
+    border-radius: 15px;
+    margin: 15px;
+}
+.bonus-cont-wide{
+    width: 100%;
+
+}
+
+.bonus-header{
+    border-radius: 15px 15px 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    box-sizing: border-box;
+    padding: 0 20px;
+    background: #131313;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+}
+
+.bonus-header-icon{
+    display: flex;
+    align-items: center;
+    height: 98%;
+    width: 140px;
+    box-sizing: border-box;
+    padding: 0 12px 0 0;
+    background-image: url('./img/bonus-ico.png');
+    background-size: cover;
+}
+
+.bonus-header-bar{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 175px;
+    border-radius: 25px;
+    height: 50px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2), inset 0px 1px 0px rgba(255, 255, 255, 0.15);
+    box-sizing: border-box;
+    padding: 0 17px;
+}
+
+.bonus-header-bar-num{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48px;
+    color: #D80027;
+}
+
+.bonus-header-bar-line{
+    width: 1px;
+    height: 30px;
+    margin-left: 13px;
+    background-color: green;
+}
+
+.bonus-header-bar-text{
+    margin-left: 13px;
+}
+
+.bonus-header-bar-text-top{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #343049;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+.bonus-header-bar-text-bottom{
+    font-size: 11px;
+    line-height: 130%;
+    color: #747187;
+}
+
+.bonus-title{
+    font-size: 26px;
+    line-height: 135%;
+    font-weight: 700;
+    color: #ff8a00;
+    margin-left: 20px;
+    margin-top: 45px;
+}
+
+.bonus-subtitle{
+    display: flex;
+    margin: 20px 0 10px 20px;
+}
+
+.bonus-subtitle-icon{
+    background-image: url('https://casinostats.com/wp-content/themes/casinostats/assets/dist/img/wagering.svg');
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.bonus-subtitle-text{
+    font-size: 13px;
+    line-height: 155%;
+    color: #343049;
+}
+
+.bonus-button-cont{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.bonus-button{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding: 16.5px 0px 16.5px 50px;
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    background: #ff8a00;
+    margin-right: 25px;
+}
+.bonus-button:after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 11px;
+    width: 24px;
+    height: 100%;
+    background: url("https://casinostats.com/wp-content/themes/casinostats/assets/dist/img/rounded-triangle.svg") no-repeat center/contain;
+}
+
+.bonus-button-text{
+    font-size: 12px;
+    line-height: 140%;
+    color: #747187;
+}
