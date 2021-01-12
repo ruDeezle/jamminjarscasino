@@ -1,7 +1,7 @@
 body{
     margin: 0;
     background: linear-gradient(90deg, #551b4f 0%, #26184f 100%);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content{
@@ -104,9 +104,9 @@ body{
     font-size: 26px;
     line-height: 135%;
     font-weight: 700;
-    color: #ff8a00;
+    color: #7d008d;
     margin-left: 20px;
-    margin-top: 45px;
+    margin-top: 40px;
 }
 
 .bonus-subtitle{
@@ -161,4 +161,27 @@ body{
     font-size: 12px;
     line-height: 140%;
     color: #747187;
+}
+
+.info-cont{
+    height: 300px;
+    width: 370px;
+    background-color:#F5F5F7;
+    border-radius: 15px;
+    margin: 15px;
+    width: 100%;
+}
+
+h1{
+    margin-top: 35px;
+    margin-left: 35px;
+    color: #343049;
+}
+
+.info_trust{
+    margin-top: 15px;
+}
+p {
+    margin-left: 35px;
+    margin-right: 35px;
 }
